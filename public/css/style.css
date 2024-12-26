@@ -1,0 +1,267 @@
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+.main{
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-evenly;
+    margin-top: 3rem;     
+}
+.card{
+    height: 22rem !important;
+}
+.card-img{
+    height: 100% !important;
+}
+
+.frist{
+    background-image: url(frist.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100%; 
+    height: 100%;
+}
+.second{
+    background-image: url(second.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%; 
+    height: 100%;
+}
+.third{
+    background-image: url(third.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%; 
+    height: 100%;
+}
+.search{
+    margin-top: 9rem;
+}
+
+.history{
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-evenly;
+    margin-top: 2rem; 
+}
+.input-group{
+    width: 38rem !important;
+    height: 3rem !important; 
+}
+.title{
+    color: white;
+    font-family:'Times New Roman', Times, serif ;
+}
+.prompt{
+    margin-top: 3rem;
+}
+
+.go-back{
+    color: white;
+    text-decoration: none;
+}
+
+
+.deccription title{
+    font-size: 1rem;
+}
+.deccription{
+    color: #ffffff;
+    margin-left: 2.8rem;
+}
+.logo-main{
+    display: flex;
+    justify-content: flex-start;
+}
+.logo-section{
+    
+    display: flex;
+    margin-left: 2rem;
+}
+.heading-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+    background-image: url(logo.jpg);
+    background-size: 100%;
+}
+
+
+
+.footer{
+	background-color: #000000;
+    margin-top: 18rem;
+    display: flex;
+}
+.footer-logo{
+    width: 8rem;
+    height: 8rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    background-image: url(vikash.jpg);
+    background-size: 100%;
+    border-radius: 2rem;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   margin-left: 2rem;
+   margin-top: 3rem;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #decdcd;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.develop{
+    width: 10rem;
+    height: 4rem;
+    margin-top: 10rem;
+    margin-right: 2rem;
+    color: #ffffff;
+}
+
+/* General Card Hover Effect */
+/* Title Styling */
+.title {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem; /* Adjust as needed */
+    text-align: center;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Title Hover Effect */
+.title:hover {
+    color: #ffd700; /* Golden color for highlight */
+    text-shadow: 0px 4px 10px rgba(255, 215, 0, 0.8); /* Glowing effect */
+    transform: scale(1.05); /* Slight enlargement */
+    transition: all 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+
+.card:hover {
+    transform: translateY(-10px); /* Slight upward movement */
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5); /* Highlighted shadow */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* History Button Hover */
+.history button:hover {
+    background-color: #218838; /* Slightly darker green */
+    color: white;
+    transform: scale(1.05); /* Slight scaling */
+    transition: all 0.3s ease;
+}
+
+/* Footer Link Hover */
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+    background-color: #333; /* Highlight link background */
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+/* Social Links Hover */
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+    transform: rotate(360deg); /* Rotates icon */
+    transition: all 0.5s ease;
+}
+
+/* Logo Hover */
+.logo:hover {
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.7); /* Glow effect */
+    transform: scale(1.1); /* Slight scaling */
+    transition: all 0.3s ease;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .input-group {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .deccription {
+        font-size: 1rem;
+    }
+}
+
+
+

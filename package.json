@@ -1,0 +1,22 @@
+{
+  "name": "image",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@api/monster-api": "file:.api/apis/monster-api",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "mongoose": "^8.9.0",
+    "node": "^20.18.0",
+    "uuid": "^11.0.3"
+  }
+}
